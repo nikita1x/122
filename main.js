@@ -14,10 +14,7 @@ $('.telegram-form').on('submit', function (event) {
 
     data.append( 'name', 		$('[name="name"]', form).val() );
     data.append( 'phone', 		$('[name="phone"]', form).val() );
-    data.append( 'email', 		$('[name="email"]', form).val() );
-    data.append( 'text', 		$('[name="text"]', form).val() );
-    data.append( 'file', 		$('[name="file"]', form).val() );
-   
+    
 
     files.each(function (key, file) {
         let cont = file.files;
